@@ -1,0 +1,60 @@
+# Dependencies untuk Sistem Tethered Shooting AI Enhanced
+# ========================================================
+
+# Core AI dan Image Processing
+google-generativeai>=0.8.0          # Google GenAI SDK untuk enhancement (latest for Python 3.12)
+opencv-python>=4.9.0.80             # Computer vision dan image processing
+Pillow>=10.2.0                      # Python Imaging Library
+numpy>=1.26.0                       # Numerical computing (Python 3.12 compatible)
+scipy>=1.12.0                       # Scientific computing
+
+# Face Detection (pilihan - install sesuai kebutuhan)
+# dlib==19.24.2                     # Uncomment jika ingin pakai dlib
+# mediapipe==0.10.8                 # Uncomment jika ingin pakai MediaPipe
+
+# Camera Control
+gphoto2>=2.5.0                      # Python bindings untuk gphoto2
+# Catatan: Butuh libgphoto2-dev terinstall di system
+
+# LUT Processing  
+colour-science>=0.4.4               # Color science library untuk LUT
+imageio>=2.34.0                     # Image I/O operations
+
+# File Management dan Utils
+# pathlib2==2.3.7                   # Not needed for Python 3.12 (pathlib is built-in)
+watchdog>=4.0.0                     # File system monitoring
+psutil>=5.9.8                       # System monitoring
+tqdm>=4.66.2                        # Progress bars
+
+# Logging dan Monitoring
+colorlog>=6.8.2                     # Colored logging
+python-dotenv>=1.0.1                # Environment variables
+
+# JWT untuk authentication
+PyJWT>=2.8.0                        # JWT tokens untuk API auth
+
+# Concurrent Processing
+# concurrent-futures==3.1.1         # Not needed for Python 3.12 (concurrent.futures is built-in)
+# threading-utils==0.3               # Not needed, use built-in threading
+
+# Web Integration (untuk koneksi ke web project)
+requests>=2.32.0                    # HTTP requests
+aiohttp>=3.10.0                     # Async HTTP client
+websockets>=12.0                    # WebSocket client
+
+# Optional: Image Enhancement Alternatives
+# rembg==2.0.50                     # Background removal
+# upscaler==1.0.0                   # Image upscaling
+
+# Development Tools (optional)
+# black==23.11.0                    # Code formatter
+# flake8==6.1.0                     # Linting
+# pytest==7.4.3                     # Testing
+
+# System Requirements (install via apt/yum):
+# - libgphoto2-dev
+# - libgphoto2-port12
+# - gphoto2
+# - python3-dev
+# - build-essential
+# - cmake (untuk dlib jika digunakan)
