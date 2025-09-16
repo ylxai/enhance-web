@@ -1,0 +1,303 @@
+# Tethered Shooting System - Git Ignore
+# =====================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Camera Captures & Photos
+captured/
+backup/
+processed/
+watch_folder/
+temp/
+
+# Test Output
+test/face_test/
+test/ai_test/
+test/upload_test/
+test/temp/
+test_*.jpg
+test_*.png
+test_*.cr2
+test_*.nef
+test_*.arw
+
+# Assets (Optional - uncomment jika tidak ingin commit)
+# presets/*.cube
+# watermarks/*.png
+# models/*.xml
+
+# Generated Files
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Coverage Reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary Files
+tmp_*
+temp_*
+.tmp/
+.temp/
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Photo/Video Files (exclude from repo)
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.bmp
+*.gif
+*.raw
+*.cr2
+*.cr3
+*.nef
+*.arw
+*.orf
+*.rw2
+*.dng
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Audio Files
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*~
+
+# Failed Upload Logs
+failed_uploads.json
+
+# PM2 Logs
+.pm2/
+
+# Node.js (if any Node tools used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Security
+*.key
+*.pem
+*.p12
+*.crt
+*.csr
+secrets/
+credentials/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
+
+# Local configuration overrides
+config.local.py
+settings.local.py
+
+# Performance testing outputs
+performance_*.json
+benchmark_*.txt
+
+# Sample/Test Data
+samples/
+test_data/
+mock_data/
+
+# Documentation builds
+docs/_build/
+docs/build/
+
+# Compiled translations
+*.mo
+
+# Django stuff (if any Django tools used)
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff (if any Flask tools used)
+instance/
+.webassets-cache
+
+# Scrapy stuff (if any web scraping tools used)
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/

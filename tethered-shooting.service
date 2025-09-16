@@ -1,0 +1,15 @@
+[Unit]
+Description=Tethered Shooting AI Enhanced System
+After=network.target
+
+[Service]
+Type=simple
+User=irvannandika
+WorkingDirectory=/mnt/c/users/administrator/downloads/vps/auto
+Environment=PATH=/mnt/c/users/administrator/downloads/vps/auto/venv/bin
+ExecStart=/mnt/c/users/administrator/downloads/vps/auto/venv/bin/python /mnt/c/users/administrator/downloads/vps/auto/auto_capture_ai_enhanced.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
